@@ -1,13 +1,17 @@
-# Offering residential information
+# 주거정보제공 웹 제작
 
 ## Introduction
-This team project was performed in 빅데이터 청년인재 양성사업.  
-You can check what this business is at this link. [http://bigjob.dbguide.net](http://bigjob.dbguide.net)  
-Purpose of this project is to show some residential information to youngage(20~30) people in seoul so that they can get some help when moving. You can see what we've done in presentation.pdf file.  
-In this project, I collected, preprocessed and cleansed data and did some data visualization.  
-So you can see some codes and description about my performance in here.  
-## Preprocessing data
-In preprocess folder, you can check how I preprocessed data and made final table.And I also upload data.
-## Visualization
-One of project's purpose is offering similar residential environment in seoul. So our team used tf-idf algorithm to do this. You can check how this method can be applied in presentation.pdf file.  
-I upload some codes and description.
+본 팀 프로젝트는 빅데이터 청년인재 양성사업 아래 수행되었습니다. 
+다음 링크를 통해 이 사업의 내용을 확인하실 수 있습니다. [http://bigjob.dbguide.net](http://bigjob.dbguide.net)  
+본 프로젝트의 목표는 서울에 주거하는 20-30대 청년에게 주거 정보를 제공하여 주거지역 이동 시 정보를 제공하기 위함입니다. presentation.pdf 파일에서 프로젝트의 상세 내용을 확인하실 수 있습니다.  
+프로젝트에서 저는 데이터 수집, 전처리, 시각화를 담당하였습니다.  
+Repository안에 데이터와 수행했던 코드들을 업로드하였습니다.  
+  
+## 데이터 전처리
+전처리 폴더에서 제가 어떻게 수집된 데이터를 전처리하였는지 코드내용과 최종 결과 테이블을 확인하실 수 있습니다.
+dplyr 패키지를 적극 사용하고자 하였습니다.  
+R에서 데이터를 불러오는 과정에서 한글 인코딩 문제를 해결하는데 많은 어려움을 겪었습니다. 원인은 확인하기 어려웠지만 readxl 패키지를 사용하였을 때 인코딩 문제가 어느정도 해결되는 것을 확인하였습니다.  
+  
+## 시각화
+프로젝트의 목적 중 하나는 현재 주거 지역과 유사한 주거 환경을 갖춘 지역을 제시하는 것이었습니다. 그래서 저희 팀은 tf-idf 알고리즘을 이용하였습니다. tf-idf 알고리즘은 본래 텍스트 마이닝에 활용되는 기법이지만 본 프로젝트에 적용하였을 때에도 유용해보였습니다. 자세한 적용 방법은 presentation.pdf파일을 통해 확인하실 수 있습니다.  
+tf-idf 알고리즘 적용 코드와 레이터 차트 생성 코드를 업로드 하였습니다.
